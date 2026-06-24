@@ -39,9 +39,9 @@ export default function ContactPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=1920&q=80"
-            alt="Contact"
-            className="w-full h-full object-cover opacity-15"
+            src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80"
+            alt="Global Communication Technology"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
         </div>

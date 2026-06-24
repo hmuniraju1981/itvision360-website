@@ -42,9 +42,9 @@ export default function IndustrialAutomationPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=1920&q=80"
-            alt="Industrial Automation"
-            className="w-full h-full object-cover opacity-15"
+            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=80"
+            alt="Industrial Automation Robotics"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
         </div>

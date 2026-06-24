@@ -40,9 +40,9 @@ export default function IoTCloudPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80"
-            alt="Cloud Infrastructure"
-            className="w-full h-full object-cover opacity-15"
+            src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&q=80"
+            alt="Cloud Network Technology"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
         </div>

@@ -45,9 +45,9 @@ export default function ConsultingStrategyPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&q=80"
-            alt="Strategy"
-            className="w-full h-full object-cover opacity-15"
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&q=80"
+            alt="Business Strategy Planning"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
         </div>

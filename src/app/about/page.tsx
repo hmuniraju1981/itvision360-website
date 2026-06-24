@@ -1,21 +1,10 @@
-import { Target, Users, Lightbulb, Handshake, Award } from "lucide-react";
+import { Target, Users, Lightbulb, Handshake } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
   title: "About | ITVision360 - Your Partner in Technology Solutions",
-  description: "Discover ITVision360's commitment to delivering exceptional technology solutions, shaped by our mission, vision, and world-class leadership.",
+  description: "Discover ITVision360's commitment to delivering exceptional technology solutions, shaped by our mission, vision, and values.",
 };
-
-const leadership = [
-  {
-    name: "Harsha Muniraju, MBA",
-    title: "Chief Technology Officer (CTO)",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-    bio: "Data, AI & Agentic AI executive with 15+ years leading enterprise transformation in Fortune 50 environments. Scaled AT&T's Chief Data Office to 400+ members managing 760+ PB of enterprise data. Delivered $70M+ in organizational savings. Expert in Azure OpenAI, GenAI productization, and Responsible AI governance.",
-    credentials: ["MBA — Jack Welch Management Institute", "PG AI & ML — UT Austin McCombs", "PMP • SAFe Agilist"],
-    linkedin: "https://linkedin.com/in/harshamuniraju",
-  },
-];
 
 const values = [
   {
@@ -54,11 +43,11 @@ export default function AboutPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"
-            alt="Corporate"
-            className="w-full h-full object-cover opacity-10"
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=80"
+            alt="Technology Circuit Board"
+            className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/70 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
@@ -74,8 +63,16 @@ export default function AboutPage() {
       </section>
 
       {/* How We Work */}
-      <section className="section-padding">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=80"
+            alt="Cybersecurity Technology"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="gradient-text">Our Philosophy</span>
@@ -100,60 +97,17 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Leadership */}
-      <section className="section-padding bg-dark-300/30">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              <span className="gradient-text">Executive Leadership</span>
-            </h2>
-            <p className="text-gray-500 max-w-2xl mx-auto">
-              Visionary leaders driving innovation, operational excellence, and AI-forward transformation.
-            </p>
-          </div>
-
-          {leadership.map((leader, i) => (
-            <div key={i} className="glass rounded-3xl overflow-hidden">
-              <div className="flex flex-col md:flex-row">
-                <div className="md:w-72 h-72 md:h-auto shrink-0">
-                  <img
-                    src={leader.image}
-                    alt={leader.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-8 md:p-12 flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-2xl font-bold text-white">{leader.name}</h3>
-                    <a
-                      href={leader.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-400 hover:text-primary-300"
-                    >
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                    </a>
-                  </div>
-                  <p className="text-primary-400 font-medium text-lg mb-4">{leader.title}</p>
-                  <p className="text-gray-400 leading-relaxed mb-6">{leader.bio}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {leader.credentials.map((cred, j) => (
-                      <span key={j} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary-500/5 border border-primary-500/15 rounded-lg text-xs text-primary-300">
-                        <Award size={12} />
-                        {cred}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Business Model */}
-      <section className="section-padding">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1488229297570-58520851e868?w=1920&q=80"
+            alt="Digital Technology Network"
+            className="w-full h-full object-cover opacity-25"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="gradient-text">Engagement Models</span>
@@ -179,8 +133,16 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=80"
+            alt="Matrix Data Visualization"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Partner With Us for Success</h2>
           <p className="text-gray-400 mb-8">
             Discover how ITVision360 can accelerate your digital transformation journey.

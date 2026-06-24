@@ -94,7 +94,7 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80"
             alt="Artificial Intelligence Neural Network"
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover opacity-50"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/60 to-dark-950" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary-900/10 via-transparent to-accent-600/5" />
@@ -166,7 +166,7 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&q=80"
             alt="AI Brain Visualization"
-            className="w-full h-full object-cover opacity-15"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
         </div>
@@ -212,7 +212,7 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&q=80"
             alt="AI Data Circuits"
-            className="w-full h-full object-cover opacity-10"
+            className="w-full h-full object-cover opacity-25"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/95 to-dark-950" />
         </div>
@@ -279,7 +279,7 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1694903110330-cc865e8c9e04?w=1920&q=80"
             alt="AI Technology Abstract"
-            className="w-full h-full object-cover opacity-15"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
         </div>
@@ -320,7 +320,7 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1676299081847-824916de030a?w=1920&q=80"
             alt="AI Future"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-35"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
         </div>

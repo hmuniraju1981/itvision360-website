@@ -52,9 +52,9 @@ export default function ProductLifecyclePage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1920&q=80"
-            alt="Product Development"
-            className="w-full h-full object-cover opacity-15"
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80"
+            alt="Technology Team Collaboration"
+            className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
         </div>
