@@ -89,19 +89,19 @@ export default function Home() {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Multi-layer professional background */}
+        {/* AI-themed professional background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=1920&q=80"
-            alt="Digital Network"
-            className="w-full h-full object-cover opacity-25"
+            src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80"
+            alt="Artificial Intelligence Neural Network"
+            className="w-full h-full object-cover opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/40 via-dark-950/70 to-dark-950" />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/20 via-transparent to-accent-600/10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/60 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/10 via-transparent to-accent-600/5" />
         </div>
         {/* Animated accent orbs */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/5 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent-500/5 rounded-full blur-3xl animate-pulse delay-1000" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-1/3 right-1/4 w-80 h-80 bg-accent-500/8 rounded-full blur-3xl animate-pulse" />
 
         <div className="relative z-10 max-w-5xl mx-auto text-center px-6 pt-24">
           {/* Logo mark */}
@@ -161,8 +161,16 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="section-padding">
-        <div className="max-w-7xl mx-auto">
+      <section id="services" className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&q=80"
+            alt="AI Brain Visualization"
+            className="w-full h-full object-cover opacity-15"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="gradient-text">Comprehensive Technology Solutions</span>
@@ -199,8 +207,16 @@ export default function Home() {
       </section>
 
       {/* Technology Expertise */}
-      <section className="section-padding bg-dark-300/30">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&q=80"
+            alt="AI Data Circuits"
+            className="w-full h-full object-cover opacity-10"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/95 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="gradient-text">Technology Expertise</span>
@@ -258,8 +274,16 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="section-padding">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1694903110330-cc865e8c9e04?w=1920&q=80"
+            alt="AI Technology Abstract"
+            className="w-full h-full object-cover opacity-15"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">
             <span className="gradient-text">Why Choose ITVision360?</span>
           </h2>
@@ -291,8 +315,16 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1676299081847-824916de030a?w=1920&q=80"
+            alt="AI Future"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto">
           <div className="relative glass rounded-3xl p-12 md:p-16 text-center overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-primary-600/10 to-accent-600/10" />
             <div className="relative z-10">
