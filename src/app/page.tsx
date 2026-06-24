@@ -89,16 +89,26 @@ export default function Home() {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Multi-layer professional background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80"
-            alt="Technology"
-            className="w-full h-full object-cover opacity-20"
+            src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=1920&q=80"
+            alt="Digital Network"
+            className="w-full h-full object-cover opacity-25"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/40 via-dark-950/70 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/20 via-transparent to-accent-600/10" />
         </div>
+        {/* Animated accent orbs */}
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/5 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent-500/5 rounded-full blur-3xl animate-pulse delay-1000" />
 
         <div className="relative z-10 max-w-5xl mx-auto text-center px-6 pt-24">
+          {/* Logo mark */}
+          <div className="flex justify-center mb-8">
+            <img src="/logo.png" alt="ITVision360" className="w-20 h-20 drop-shadow-2xl" />
+          </div>
+
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full text-xs text-primary-300 mb-8">
             <span className="w-2 h-2 rounded-full bg-primary-400 animate-pulse" />
             Trusted by Fortune 500 since 2011

@@ -22,10 +22,8 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-dark-950/80 backdrop-blur-xl border-b border-white/[0.06]">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center font-bold text-white text-sm">
-            IT
-          </div>
+        <Link href="/" className="flex items-center gap-3">
+          <img src="/logo.png" alt="ITVision360" className="w-10 h-10" />
           <span className="text-xl font-bold">
             <span className="gradient-text">ITVision</span>
             <span className="text-white">360</span>

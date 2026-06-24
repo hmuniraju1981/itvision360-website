@@ -23,10 +23,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center font-bold text-white text-sm">
-                IT
-              </div>
+            <Link href="/" className="flex items-center gap-3">
+              <img src="/logo.png" alt="ITVision360" className="w-10 h-10" />
               <span className="text-xl font-bold">
                 <span className="gradient-text">ITVision</span>
                 <span className="text-white">360</span>
