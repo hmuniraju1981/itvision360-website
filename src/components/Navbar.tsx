@@ -46,7 +46,7 @@ export default function Navbar() {
               Services <ChevronDown size={14} />
             </button>
             <div
-              className={`absolute top-full left-0 mt-2 w-72 glass rounded-xl p-2 shadow-2xl shadow-black/50 transition-all duration-200 ${
+              className={`absolute top-full left-0 mt-2 w-72 bg-dark-950 border border-white/10 rounded-xl p-2 shadow-2xl shadow-black/60 transition-all duration-200 ${
                 servicesOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"
               }`}
               onMouseEnter={() => setServicesOpen(true)}
@@ -56,7 +56,7 @@ export default function Navbar() {
                 <Link
                   key={service.href}
                   href={service.href}
-                  className="block px-4 py-2.5 rounded-lg text-sm text-gray-300 hover:text-white hover:bg-white/[0.06] transition-all"
+                  className="block px-4 py-2.5 rounded-lg text-sm text-gray-300 hover:text-white hover:bg-primary-500/10 transition-all"
                 >
                   {service.name}
                 </Link>

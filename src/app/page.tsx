@@ -1,4 +1,5 @@
 import Link from "next/link";
+import InlineChatbot from "@/components/InlineChatbot";
 import {
   ArrowRight,
   Cpu,
@@ -96,7 +97,7 @@ export default function Home() {
             alt="Artificial Intelligence Neural Network"
             className="w-full h-full object-cover opacity-50"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/60 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/20 via-dark-950/50 to-dark-950" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary-900/10 via-transparent to-accent-600/5" />
         </div>
         {/* Animated accent orbs */}
@@ -143,6 +144,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* AI Assistant */}
+      <InlineChatbot />
 
       {/* Stats Section */}
       <section className="relative py-16 border-y border-white/[0.06]">
