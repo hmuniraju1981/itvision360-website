@@ -24,7 +24,7 @@ body {
     text-wrap: balance;
   }
   .glass {
-    @apply bg-white/[0.03] backdrop-blur-md border border-white/10;
+    @apply bg-dark-950/70 backdrop-blur-md border border-white/10;
   }
   .glass-hover {
     @apply hover:bg-white/[0.06] hover:border-primary-500/30 transition-all duration-300;

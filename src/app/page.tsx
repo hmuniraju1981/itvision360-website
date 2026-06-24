@@ -95,10 +95,9 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80"
             alt="Artificial Intelligence Neural Network"
-            className="w-full h-full object-cover opacity-50"
+            className="w-full h-full object-cover opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/20 via-dark-950/50 to-dark-950" />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/10 via-transparent to-accent-600/5" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-dark-950/20 to-dark-950" />
         </div>
         {/* Animated accent orbs */}
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl animate-pulse" />
@@ -115,10 +114,10 @@ export default function Home() {
             Trusted by Fortune 500 since 2011
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-6 drop-shadow-lg">
             <span className="gradient-text">Architecting the Future</span>
             <br />
-            <span className="text-white">of Industrial Intelligence</span>
+            <span className="text-white drop-shadow-md">of Industrial Intelligence</span>
           </h1>
 
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
@@ -170,9 +169,9 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&q=80"
             alt="AI Brain Visualization"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -216,9 +215,9 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&q=80"
             alt="AI Data Circuits"
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/95 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -283,9 +282,9 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1694903110330-cc865e8c9e04?w=1920&q=80"
             alt="AI Technology Abstract"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">
@@ -324,9 +323,9 @@ export default function Home() {
           <img
             src="https://images.unsplash.com/photo-1676299081847-824916de030a?w=1920&q=80"
             alt="AI Future"
-            className="w-full h-full object-cover opacity-35"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <div className="relative glass rounded-3xl p-12 md:p-16 text-center overflow-hidden">

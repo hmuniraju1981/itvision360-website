@@ -63,9 +63,9 @@ export default function AIStrategyPage() {
           <img
             src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&q=80"
             alt="AI Technology"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/60 via-dark-950/80 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center px-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full text-xs text-primary-300 mb-8">

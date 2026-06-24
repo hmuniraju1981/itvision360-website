@@ -45,9 +45,9 @@ export default function AboutPage() {
           <img
             src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&q=80"
             alt="Technology Circuit Board"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/50 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
@@ -68,9 +68,9 @@ export default function AboutPage() {
           <img
             src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=80"
             alt="Cybersecurity Technology"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/90 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/30 via-dark-950/50 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -103,9 +103,9 @@ export default function AboutPage() {
           <img
             src="https://images.unsplash.com/photo-1488229297570-58520851e868?w=1920&q=80"
             alt="Digital Technology Network"
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/40 via-dark-950/60 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto">
           <div className="text-center mb-16">
@@ -138,9 +138,9 @@ export default function AboutPage() {
           <img
             src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1920&q=80"
             alt="Matrix Data Visualization"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/85 to-dark-950" />
+          <div className="absolute inset-0 bg-gradient-to-b from-dark-950/40 via-dark-950/60 to-dark-950" />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Partner With Us for Success</h2>
