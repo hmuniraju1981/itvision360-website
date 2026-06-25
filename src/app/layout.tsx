@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: `if('scrollRestoration' in history){history.scrollRestoration='manual'}window.scrollTo(0,0)` }} />
+      </head>
       <body className="antialiased bg-dark-950 text-slate-100 min-h-screen">
         <ScrollToTop />
         <Navbar />
