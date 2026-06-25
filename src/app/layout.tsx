@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "ITVision360 | Industrial Automation & Enterprise AI Solutions",
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className="antialiased bg-dark-950 text-slate-100 min-h-screen">
+        <ScrollToTop />
         <Navbar />
         <main>{children}</main>
         <Footer />
