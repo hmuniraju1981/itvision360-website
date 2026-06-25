@@ -9,9 +9,6 @@
   --foreground: #f1f5f9;
 }
 
-* {
-  scroll-behavior: smooth;
-}
 
 body {
   color: var(--foreground);
